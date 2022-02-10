@@ -1,0 +1,7 @@
+.Bannersito_MainContainer{
+    display: flex;
+    max-width: 600px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+}
