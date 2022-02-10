@@ -11,8 +11,8 @@
   background-color: #5b1b1b;
   padding: 13px 20px;
   color: white;
-  font-weight:bold,
-  
+  font-weight:bold;
+  text-transform: uppercase;
 }
 .Banersito_ProductImgContainer{
   height: 200px;
