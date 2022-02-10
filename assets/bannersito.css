@@ -9,3 +9,6 @@
 .Banersito_ProductImgContainer{
   height: 200px;
 }
+.Banersito_ProductImgContainer > img{
+  height: inherit;
+}
