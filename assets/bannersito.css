@@ -7,6 +7,11 @@
   margin: auto;
   padding: 10px;
 }
+.Bannersito_InfoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .Bannersito_BigText{
   text-transform: uppercase;
   font-size: 30px;
