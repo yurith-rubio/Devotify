@@ -18,6 +18,9 @@
   line-height: 1.2;
   font-weight: 800;
 }
+.Bannersito_ButtonWrapper, .Bannersito_BigText{
+  margin-top:10px
+}
 .Bannersito_Button{
   background-color: #5b1b1b;
   padding: 13px 20px;
