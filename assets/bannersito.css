@@ -2,7 +2,7 @@
   display: flex;
   max-width: 700px;
   background-color: #fbfbfb;
-  border-radius: 5px;
+  border-radius: 0;
   border: 1px solid black;
   margin: auto;
   padding: 20px;
