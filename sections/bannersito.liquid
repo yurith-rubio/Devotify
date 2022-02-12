@@ -1,12 +1,7 @@
 {% render 'bannersito_css', block: block, settings: settings %}
 
 {% style %}
-{% if block.settings.mask != 'select' %}
-.Bannersito_mask-{{ section.id}}{
-  {% render 'bannersito-organic-shapes' %}
-  mask-size: contain;
-}
-{% endif %}
+
 {% endstyle %}
 
 {% for block in section.blocks %}
