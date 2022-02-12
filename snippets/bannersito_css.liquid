@@ -40,10 +40,10 @@
   height: inherit;
 }
 
-{% if block.settings.mask != 'select' %}
-.Bannersito_mask-{{ section.id}}{
-  {% render 'bannersito-organic-shapes' %}
-  mask-size: contain;
-}
-{% endif %}
+  {% if block.settings.mask != 'select' %}
+    .Bannersito_mask-{{ section.id}}{
+      {% render 'bannersito-organic-shapes' %}
+      mask-size: contain;
+    }
+  {% endif %}
 {% endstyle %}
