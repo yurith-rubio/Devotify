@@ -1,5 +1,11 @@
 {% render 'bannersito_css' %}
 
+{% style %}
+.Bannersito_mask-{{ section.id}}{
+  mask: url("{% render 'bannersito-organic-shapes' %}");
+  mask-size: contain;
+}
+{% endstyle %}
 {% for block in section.blocks %}
 <div class="Bannersito_MainContainer">
 	<div class="Bannersito_InfoContainer">
