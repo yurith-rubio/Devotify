@@ -1,5 +1,10 @@
 {
   "sections": {
+    "1644523340bf67866f": {
+      "type": "bannersito",
+      "settings": {
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -58,11 +63,6 @@
         "show_rating": false,
         "padding_top": 56,
         "padding_bottom": 4
-      }
-    },
-    "1644523340bf67866f": {
-      "type": "bannersito",
-      "settings": {
       }
     },
     "rich-text": {
@@ -264,9 +264,9 @@
     }
   },
   "order": [
+    "1644523340bf67866f",
     "image-with-text",
     "featured-collection",
-    "1644523340bf67866f",
     "rich-text",
     "collage",
     "multicolumn",
