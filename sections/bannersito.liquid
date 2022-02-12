@@ -1,11 +1,12 @@
 {% render 'bannersito_css', block: block, settings: settings %}
 
 {% style %}
-
+{% if block.settings.mask != 'select' %}
 .Bannersito_mask-{{ section.id}}{
-  
+  {% render 'bannersito-organic-shapes' %}
   mask-size: contain;
 }
+{% endif %}
 {% endstyle %}
 
 {% for block in section.blocks %}
@@ -15,8 +16,7 @@
 		<div class="Bannersito_BigText">Buy 2 pairs of shoes and get 1 for free</div>
       	<div class="Bannersito_ButtonWrapper"><a class="Bannersito_Button" href="https://damnhandsomegroomingco.com/">Buy Now</a></div>
 	</div>
-	<div class="Banersito_ProductImgContainer Bannersito_mask-{{ section.id}}"
-                {% if block.settings.mask != 'select' %}{% render 'bannersito-organic-shapes' %}{% endif %}>
+	<div class="Banersito_ProductImgContainer Bannersito_mask-{{ section.id}}">
 		<img src="{{ block.settings.promo_image | img_url: 'master' }}">
 	</div>
 </div>
