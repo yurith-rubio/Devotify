@@ -1,5 +1,6 @@
 {% render 'bannersito_css' %}
 
+{% for block in block.settings %}
 <div class="Bannersito_MainContainer">
 	<div class="Bannersito_InfoContainer">
 		<div class="Banersito_subText">Get fit</div>
@@ -10,6 +11,7 @@
 		<img src="{{ block.settings.promo_image | img_url: 'master' }}">
 	</div>
 </div>
+{% endfor %}
 
 
 {% schema %}
