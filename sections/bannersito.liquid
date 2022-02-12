@@ -7,7 +7,8 @@
 		<div class="Bannersito_BigText">Buy 2 pairs of shoes and get 1 for free</div>
       	<div class="Bannersito_ButtonWrapper"><a class="Bannersito_Button" href="https://damnhandsomegroomingco.com/">Buy Now</a></div>
 	</div>
-	<div class="Banersito_ProductImgContainer {% if block.settings.mask != 'select' %}Bannersito_mask{% endif %}">
+	<div class="Banersito_ProductImgContainer Bannersito_mask"
+                {% if block.settings.mask != 'select' %}style="mask: url(https://cdn.shopify.com/s/files/1/0591/1203/0404/files/Phone.svg?v=1644617655);"{% endif %}>
 		<img src="{{ block.settings.promo_image | img_url: 'master' }}">
 	</div>
 </div>
