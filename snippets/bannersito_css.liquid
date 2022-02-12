@@ -42,7 +42,7 @@
 
   {% if block.settings.mask != 'select' %}
     .Bannersito_mask-{{ section.id}}{
-      {% render 'bannersito-organic-shapes' %}
+      {% render 'bannersito-organic-shapes', block: block, settings: settings %}
       mask-size: contain;
     }
   {% endif %}
