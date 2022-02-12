@@ -39,5 +39,8 @@
 .Banersito_ProductImgContainer > img{
   height: inherit;
 }
-
+.Bannersito_mask-{{ section.id}}{
+  {% render 'bannersito-organic-shapes', settings: settings, block: block %}
+  mask-size: contain;
+}
 {% endstyle %}
