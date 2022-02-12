@@ -40,7 +40,7 @@
   height: inherit;
 }
 .Bannersito_mask-{{ section.id}}{
-  mask: url("{% render 'bannersito-organic-shapes' %}");
+  mask: url("{% render 'bannersito-organic-shapes', block:block %}");
   mask-size: contain;
 }
 {% endstyle %}
