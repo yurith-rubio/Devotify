@@ -6,7 +6,8 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc": {
           "type": "image",
           "settings": {
-            "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png"
+            "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
+            "mask": "bubble1"
           }
         }
       },
