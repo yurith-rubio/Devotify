@@ -2,16 +2,6 @@
 
 {% render 'bannersito_css' %}
 
-{% style %}
-  {% if block.settings.mask != 'select' %}
-    .Bannersito_mask-{{ section.id}}{
-      {% render 'bannersito-organic-shapes', settings: settings, block: block %}
-      mask-size: contain;
-    }
-  {% endif %}
-{% endstyle %}
-
-
 <div class="Bannersito_MainContainer">
 	<div class="Bannersito_InfoContainer">
 		<div class="Banersito_subText">Get fit</div>
