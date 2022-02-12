@@ -3,7 +3,7 @@
 {% style %}
   {% if block.settings.mask != 'select' %}
     .Bannersito_mask-{{ section.id}}{
-      {% render 'bannersito-organic-shapes' %}
+      {% render 'bannersito-organic-shapes', settings: settings, block: block %}
       mask-size: contain;
     }
   {% endif %}
