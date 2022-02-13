@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
-            "mask": "select",
+            "mask": "bubble1",
             "fit_img_width": false,
             "custom_img_width": 100
           }
