@@ -38,7 +38,7 @@
   max-width: 35%
 }
 .Banersito_ProductImgContainer > img{
-  {% if block.settings.custom_img_width %}
+  {% if block.settings.fit_img_width != true %}
 	width: {{ block.settings.custom_img_width }};
   {% else %}
 	height: inherit;
