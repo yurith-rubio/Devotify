@@ -9,6 +9,15 @@
         "padding_bottom": 52
       }
     },
+    "1644755274f47dfbf4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1644523340bf67866f": {
       "type": "bannersito",
       "blocks": {
@@ -297,6 +306,7 @@
   },
   "order": [
     "16447520718ffb1748",
+    "1644755274f47dfbf4",
     "1644523340bf67866f",
     "164475187207470c03",
     "image-with-text",
