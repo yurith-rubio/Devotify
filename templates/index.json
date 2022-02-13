@@ -7,7 +7,9 @@
           "type": "image",
           "settings": {
             "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
-            "mask": "bubble1"
+            "mask": "select",
+            "fit_img_width": false,
+            "custom_img_width": 100
           }
         }
       },
@@ -15,6 +17,15 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc"
       ],
       "settings": {
+      }
+    },
+    "164475187207470c03": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image-with-text": {
@@ -58,6 +69,43 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-list-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-list-1",
+        "collection-list-0",
+        "collection-list-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "show_view_all": false,
+        "padding_top": 28,
+        "padding_bottom": 24
       }
     },
     "featured-collection": {
@@ -204,43 +252,6 @@
         "padding_bottom": 0
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-list-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-list-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-list-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-list-1",
-        "collection-list-0",
-        "collection-list-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "show_view_all": false,
-        "padding_top": 28,
-        "padding_bottom": 24
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -277,12 +288,13 @@
   },
   "order": [
     "1644523340bf67866f",
+    "164475187207470c03",
     "image-with-text",
+    "collection-list",
     "featured-collection",
     "rich-text",
     "collage",
     "multicolumn",
-    "collection-list",
     "newsletter"
   ]
 }
