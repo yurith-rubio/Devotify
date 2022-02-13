@@ -38,7 +38,11 @@
   max-width: 35%
 }
 .Banersito_ProductImgContainer > img{
-  width: 100%
+  {% if block.settings.custom_img_width %}
+	width: {{ block.settings.custom_img_width }};
+  {% else %}
+	height: inherit;
+  {% endif %}
 }
 .Bannersito_mask-{{ section.id}}{
   {% render 'bannersito-organic-shapes', settings: settings, block: block %}
