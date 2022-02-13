@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   {% if block.settings.product_image != true %}
-    width: 65%;
+    width: {{ block.settings.content_width }};
   {% else %}
 	width: 100%;
   {% endif %}
@@ -44,7 +44,7 @@
   height: 200px;
   width: max-content;
   margin: auto;
-  max-width: 35%
+  max-width: 100% - {{ block.settings.content_width }};
 }
 .Banersito_ProductImgContainer > img{
   position: relative;
