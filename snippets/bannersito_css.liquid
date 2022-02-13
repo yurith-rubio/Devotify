@@ -18,8 +18,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  {% if block.settings.product_image %}
+  {% if block.settings.product_image != true %}
     width: 65%;
+  {% else %}
+	width: 100%;
   {% endif %}
 }
 .Bannersito_BigText{
