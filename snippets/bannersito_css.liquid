@@ -18,7 +18,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 65%
+  {% if block.settings.product_image %}
+    width: 65%;
+  {% endif %}
 }
 .Bannersito_BigText{
   text-transform: uppercase;
