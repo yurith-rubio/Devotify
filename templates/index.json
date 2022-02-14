@@ -203,12 +203,13 @@
         "rich-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h2"
+            "heading": "Your marketing and your design touch together",
+            "heading_size": "h1"
           }
         },
         "rich-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
@@ -221,8 +222,8 @@
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 88,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 48
       }
     },
     "collage": {
