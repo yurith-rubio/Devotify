@@ -178,6 +178,43 @@
         "padding_bottom": 4
       }
     },
+    "1644870638282a819d": {
+      "type": "rich-text",
+      "blocks": {
+        "16448706380b93d9d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keep your pace, we are here to support you",
+            "heading_size": "h1"
+          }
+        },
+        "16448706380b93d9d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are a reliable team with more than 15 years of experience in development and design. <\/p>"
+          }
+        },
+        "16448706380b93d9d4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16448706380b93d9d4-0",
+        "16448706380b93d9d4-1",
+        "16448706380b93d9d4-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -320,6 +357,7 @@
     "16448703542e2ac32d",
     "rich-text",
     "featured-collection",
+    "1644870638282a819d",
     "collage",
     "multicolumn",
     "newsletter"
