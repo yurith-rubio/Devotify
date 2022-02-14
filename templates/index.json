@@ -93,6 +93,74 @@
         "padding_bottom": 0
       }
     },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your marketing and your design touch together",
+            "heading_size": "h1"
+          }
+        },
+        "rich-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-0",
+        "rich-text-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 48
+      }
+    },
+    "16448703542e2ac32d": {
+      "type": "rich-text",
+      "blocks": {
+        "16448703542694fee0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Communicate with style and uniqueness",
+            "heading_size": "h1"
+          }
+        },
+        "16448703542694fee0-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16448703542694fee0-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16448703542694fee0-0",
+        "16448703542694fee0-1",
+        "16448703542694fee0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16448685250f078f7c": {
       "type": "image-banner",
       "disabled": true,
@@ -195,35 +263,6 @@
         "show_rating": false,
         "padding_top": 56,
         "padding_bottom": 4
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "rich-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Your marketing and your design touch together",
-            "heading_size": "h1"
-          }
-        },
-        "rich-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "rich-text-0",
-        "rich-text-1"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 48
       }
     },
     "collage": {
@@ -365,10 +404,11 @@
     "1644523340bf67866f",
     "164475187207470c03",
     "image-with-text",
+    "rich-text",
+    "16448703542e2ac32d",
     "16448685250f078f7c",
     "collection-list",
     "featured-collection",
-    "rich-text",
     "collage",
     "multicolumn",
     "newsletter"
