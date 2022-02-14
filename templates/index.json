@@ -93,35 +93,6 @@
         "padding_bottom": 0
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "rich-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Your marketing and your design touch together",
-            "heading_size": "h1"
-          }
-        },
-        "rich-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "rich-text-0",
-        "rich-text-1"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 48
-      }
-    },
     "16448703542e2ac32d": {
       "type": "rich-text",
       "blocks": {
@@ -161,91 +132,33 @@
         "padding_bottom": 52
       }
     },
-    "16448685250f078f7c": {
-      "type": "image-banner",
-      "disabled": true,
+    "rich-text": {
+      "type": "rich-text",
       "blocks": {
-        "1644868525c2b25755-0": {
+        "rich-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Show off your products and grow sales",
-            "heading_size": "medium"
+            "heading": "Fast and easy settup of a banner with your personal touch",
+            "heading_size": "h1"
           }
         },
-        "1644868525c2b25755-1": {
+        "rich-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1644868525c2b25755-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See banners",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "1644868525c2b25755-0",
-        "1644868525c2b25755-1",
-        "1644868525c2b25755-2"
+        "rich-text-0",
+        "rich-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/snowy-mountains-and-a-blue-lake.jpg",
-        "image_overlay_opacity": 30,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
         "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "collection-list-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-list-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-list-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-list-1",
-        "collection-list-0",
-        "collection-list-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "show_view_all": false,
-        "padding_top": 28,
-        "padding_bottom": 24
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 48
       }
     },
     "featured-collection": {
@@ -404,10 +317,8 @@
     "1644523340bf67866f",
     "164475187207470c03",
     "image-with-text",
-    "rich-text",
     "16448703542e2ac32d",
-    "16448685250f078f7c",
-    "collection-list",
+    "rich-text",
     "featured-collection",
     "collage",
     "multicolumn",
