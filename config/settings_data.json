@@ -1,6 +1,11 @@
 {
   "current": {
-    "colors_background_2": "#FAF7F2",
+    "colors_accent_1": "#fff989",
+    "colors_accent_2": "#5195c3",
+    "gradient_accent_2": "linear-gradient(320deg, rgba(168, 209, 214, 1) 23%, rgba(92, 125, 158, 1) 100%)",
+    "colors_text": "#2e2a29",
+    "colors_outline_button_labels": "#ffffff",
+    "colors_background_2": "#ffffff",
     "gradient_background_2": "linear-gradient(0deg, rgba(253, 251, 251, 1), rgba(229, 240, 244, 1) 32%, rgba(247, 255, 151, 1) 100%)",
     "sections": {
       "announcement-bar": {
