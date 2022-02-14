@@ -1,6 +1,7 @@
 {
   "current": {
     "colors_accent_1": "#fff989",
+    "gradient_accent_1": "linear-gradient(270deg, rgba(240, 110, 105, 1), rgba(249, 208, 163, 1) 100%)",
     "colors_accent_2": "#5195c3",
     "gradient_accent_2": "linear-gradient(320deg, rgba(168, 209, 214, 1) 23%, rgba(92, 125, 158, 1) 100%)",
     "colors_text": "#2e2a29",
