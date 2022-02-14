@@ -51,7 +51,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -83,12 +82,12 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/snowy-mountains-and-a-blue-lake.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
@@ -96,6 +95,7 @@
     },
     "16448685250f078f7c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "1644868525c2b25755-0": {
           "type": "heading",
