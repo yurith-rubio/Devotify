@@ -1,1 +1,91 @@
-{"current":{"sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"color_scheme":"background-2"}}},"block_order":["announcement-bar-0"],"settings":{}},"header":{"type":"header","settings":{"logo_width":70,"logo_position":"top-center","show_line_separator":false,"margin_bottom":24}},"footer":{"type":"footer","blocks":{"footer-linklist":{"type":"link_list","settings":{"heading":"Menu"}},"footer-text-0":{"type":"text","settings":{"heading":"Our Store"}},"footer-image":{"type":"image","settings":{"image_width":200}},"footer-text-1":{"type":"text","settings":{"heading":"Our Promise"}}},"block_order":["footer-linklist","footer-text-0","footer-image","footer-text-1"],"settings":{"color_scheme":"background-2","newsletter_enable":false,"show_social":true,"enable_country_selector":false,"enable_language_selector":false,"payment_enable":false,"margin_top":0,"padding_top":16,"padding_bottom":48}}}}}
+{
+  "current": {
+    "colors_background_2": "#dadb8a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo_width": 70,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": false,
+          "enable_sticky_header": true,
+          "margin_bottom": 24
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-linklist": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Menu",
+              "menu": "footer"
+            }
+          },
+          "footer-text-0": {
+            "type": "text",
+            "settings": {
+              "heading": "Our Store",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          },
+          "footer-image": {
+            "type": "image",
+            "settings": {
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
+          "footer-text-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Our Promise",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-linklist",
+          "footer-text-0",
+          "footer-image",
+          "footer-text-1"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 16,
+          "padding_bottom": 48
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

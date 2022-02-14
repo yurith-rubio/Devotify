@@ -24,10 +24,13 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc": {
           "type": "image",
           "settings": {
+            "product_image": true,
             "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
             "mask": "select",
             "fit_img_width": false,
-            "custom_img_width": 100
+            "custom_img_width": 100,
+            "custom_top_position": 0,
+            "content_width": 75
           }
         }
       },
@@ -48,12 +51,13 @@
     },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Show off your products and grow sales",
+            "heading_size": "h2"
           }
         },
         "image-with-text-1": {
@@ -77,8 +81,9 @@
         "image-with-text-2"
       ],
       "settings": {
-        "height": "large",
-        "desktop_image_width": "large",
+        "image": "shopify:\/\/shop_images\/snowy-mountains-and-a-blue-lake.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -87,6 +92,54 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "16448685250f078f7c": {
+      "type": "image-banner",
+      "blocks": {
+        "1644868525c2b25755-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Show off your products and grow sales",
+            "heading_size": "medium"
+          }
+        },
+        "1644868525c2b25755-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1644868525c2b25755-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See banners",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644868525c2b25755-0",
+        "1644868525c2b25755-1",
+        "1644868525c2b25755-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/snowy-mountains-and-a-blue-lake.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collection-list": {
@@ -310,6 +363,7 @@
     "1644523340bf67866f",
     "164475187207470c03",
     "image-with-text",
+    "16448685250f078f7c",
     "collection-list",
     "featured-collection",
     "rich-text",
