@@ -144,6 +144,7 @@
     },
     "collection-list": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "collection-list-1": {
           "type": "featured_collection",
