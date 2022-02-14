@@ -1,6 +1,7 @@
 {
   "current": {
-    "colors_background_2": "#dadb8a",
+    "colors_background_2": "#FAF7F2",
+    "gradient_background_2": "linear-gradient(0deg, rgba(253, 251, 251, 1), rgba(229, 240, 244, 1) 32%, rgba(247, 255, 151, 1) 100%)",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
