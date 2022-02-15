@@ -24,7 +24,7 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc": {
           "type": "image",
           "settings": {
-            "background_style": "two_plain_colors",
+            "background_style": "plain_color",
             "plain_bg_color": "#dc2626",
             "two_plain_colors": "linear-gradient(100deg, rgba(255, 255, 255, 1) 5%, rgba(244, 207, 111, 1) 28%, rgba(179, 54, 54, 1) 78%)",
             "product_image": true,
