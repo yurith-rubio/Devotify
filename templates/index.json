@@ -24,15 +24,20 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc": {
           "type": "image",
           "settings": {
+            "background_style": "two_plain_colors",
+            "plain_bg_color": "#dc2626",
+            "two_plain_colors": "linear-gradient(100deg, rgba(255, 255, 255, 1) 5%, rgba(244, 207, 111, 1) 28%, rgba(179, 54, 54, 1) 78%)",
             "product_image": true,
             "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
-            "mask": "bubble1",
-            "mask_position_x": 0,
-            "mask_position_y": 3,
             "fit_img_width": false,
             "custom_img_width": 100,
+            "custom_left_position": 0,
             "custom_top_position": 0,
-            "content_width": 75
+            "content_width": 75,
+            "mask": "bubble1",
+            "mask_size": 100,
+            "mask_position_x": 0,
+            "mask_position_y": 3
           }
         }
       },
