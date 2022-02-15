@@ -14,7 +14,7 @@
 	background: {{ block.settings.two_plain_colors }};
   {% endif %}
   border-radius: {{ block.settings.container_radius }}px;
-  border: 1px solid white;
+  border: {{ block.settings.main_border_thickness }}px solid {{ block.settings.main_border_color }};
   margin: auto;
   padding: 20px;
 }
