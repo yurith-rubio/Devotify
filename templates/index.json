@@ -27,6 +27,7 @@
             "background_style": "plain_color",
             "plain_bg_color": "#dc2626",
             "two_plain_colors": "linear-gradient(100deg, rgba(255, 255, 255, 1) 5%, rgba(244, 207, 111, 1) 28%, rgba(179, 54, 54, 1) 78%)",
+            "container_radius": 23,
             "product_image": true,
             "promo_image": "shopify:\/\/shop_images\/damnhandsomesoycandlemen_1024x_1dcdb3c3-1d33-4cae-88b5-7178f892bac0.png",
             "fit_img_width": false,
