@@ -7,10 +7,10 @@
 .Bannersito_MainContainer{
   display: flex;
   max-width: 700px;
-  {% if block.settings.plain_color %}
+  {% if block.settings.background_style == 'plain_color' %}
 	background-color: {{ block.settings.plain_bg_color }};
   {% endif %}
-  {% if block.settings.two_plain_colors %}
+  {% if block.settings.background_style == 'two_plain_colors' %}
 	background: {{ block.settings.two_plain_colors }};
   {% endif %}
   border-radius: 0;
