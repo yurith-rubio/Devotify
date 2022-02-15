@@ -7,8 +7,11 @@
 .Bannersito_MainContainer{
   display: flex;
   max-width: 700px;
-  background-color: {{ block.settings.main_bg_color }};
-  background: {{ block.settings.main_bg_gradien_color }} linear-gradient(100deg, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 62%, rgba(232,226,210,1) 62%);
+  {% if block.settings.plain_color %}
+	background-color: {{ block.settings.main_bg_color }};
+  {% elsif block.settings.two_plain_colors %}
+	background: {{ block.settings.main_bg_gradien_color }} linear-gradient(100deg, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 62%, rgba(232,226,210,1) 62%);
+  {% endif %}
   border-radius: 0;
   border: 1px solid white;
   margin: auto;
