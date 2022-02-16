@@ -28,7 +28,7 @@
             "plain_bg_color": "#dc2626",
             "two_plain_colors": "linear-gradient(100deg, rgba(255, 255, 255, 1) 5%, rgba(244, 207, 111, 1) 28%, rgba(179, 54, 54, 1) 78%)",
             "main_border_thickness": 0,
-            "container_radius": 23,
+            "container_radius": 10,
             "button_bg_color": "#fc0",
             "button_text_color": "#5b5b5b",
             "button_container_radius": 3,
