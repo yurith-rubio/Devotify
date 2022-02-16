@@ -24,9 +24,9 @@
         "86964ed2-ffe5-4722-917e-3135464b54bc": {
           "type": "image",
           "settings": {
-            "background_style": "plain_color",
+            "background_style": "two_plain_colors",
             "plain_bg_color": "#dc2626",
-            "two_plain_colors": "linear-gradient(100deg, rgba(255, 255, 255, 1) 5%, rgba(244, 207, 111, 1) 28%, rgba(179, 54, 54, 1) 78%)",
+            "two_plain_colors": "linear-gradient(105deg, rgba(208, 201, 161, 0.5) 70%, rgba(143, 133, 127, 1) 70%)",
             "main_border_thickness": 0,
             "container_radius": 10,
             "button_bg_color": "#fc0",
