@@ -39,7 +39,7 @@
             "custom_left_position": 0,
             "custom_top_position": 0,
             "content_width": 75,
-            "mask": "bubble1",
+            "mask": "select",
             "mask_size": 100,
             "mask_position_x": 0,
             "mask_position_y": 3
