@@ -13,6 +13,7 @@
     "type_header_font": "muli_n7",
     "type_body_font": "sans-serif",
     "buttons_radius": 0,
+    "inputs_radius": 6,
     "card_corner_radius": 0,
     "media_radius": 0,
     "sections": {
