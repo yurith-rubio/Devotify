@@ -12,6 +12,7 @@
     "gradient_background_2": "linear-gradient(0deg, rgba(179, 217, 187, 1) 2%, rgba(153, 216, 193, 1) 32%, rgba(120, 195, 194, 1) 100%)",
     "type_header_font": "muli_n7",
     "type_body_font": "sans-serif",
+    "buttons_radius": 0,
     "card_corner_radius": 0,
     "media_radius": 0,
     "sections": {
