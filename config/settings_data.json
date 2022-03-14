@@ -6,7 +6,7 @@
     "colors_accent_2": "#ffe5c7",
     "gradient_accent_2": "linear-gradient(320deg, rgba(168, 209, 214, 1) 23%, rgba(92, 125, 158, 1) 100%)",
     "colors_text": "#2c0707",
-    "colors_outline_button_labels": "#e22120",
+    "colors_outline_button_labels": "#c64f35",
     "gradient_background_1": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(241, 235, 226, 1) 100%)",
     "colors_background_2": "#ffffff",
     "gradient_background_2": "#fff",
@@ -17,7 +17,7 @@
     "card_corner_radius": 0,
     "media_radius": 0,
     "badge_corner_radius": 4,
-    "accent_icons": "accent-1",
+    "accent_icons": "outline-button",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
