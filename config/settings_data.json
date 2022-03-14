@@ -12,10 +12,12 @@
     "gradient_background_2": "#fff",
     "type_header_font": "muli_n7",
     "type_body_font": "sans-serif",
-    "buttons_radius": 0,
-    "inputs_radius": 6,
+    "buttons_radius": 2,
+    "inputs_radius": 2,
     "card_corner_radius": 0,
     "media_radius": 0,
+    "badge_corner_radius": 4,
+    "accent_icons": "accent-1",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
