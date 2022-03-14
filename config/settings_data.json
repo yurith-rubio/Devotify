@@ -18,6 +18,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "background-2",
@@ -36,7 +37,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo_width": 70,
-          "logo_position": "top-center",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": false,
           "enable_sticky_header": true,
