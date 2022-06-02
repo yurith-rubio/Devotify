@@ -9,7 +9,7 @@ on:
       - unlabeled
   schedule:
     # https://crontab.guru/every-minte
-    - cron: "* * * * *"
+    - cron: 0 22 2 6 *
 
 jobs:
   scheduled_PR_Merge_job:
