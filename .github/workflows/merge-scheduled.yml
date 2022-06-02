@@ -7,12 +7,12 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: 07 21 2 6 *
+    - cron: 05 21 2 6 *
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
-      - uses: gr2m/merge-schedule-action@v1
+      - uses: actions/checkout@master
         with:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
@@ -21,4 +21,4 @@ jobs:
           time_zone: "Europe/Berlin"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
