@@ -7,7 +7,7 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: 05 21 2 6 *
+    - cron: 07 21 2 6 *
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
