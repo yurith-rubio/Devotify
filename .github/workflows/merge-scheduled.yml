@@ -1,18 +1,38 @@
-name: Merge Scheduled Pull Requests
+name: Scheduled PR Merge
 on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - labeled
+      - unlabeled
   schedule:
-    # https://crontab.guru/every-day-8am
-    - cron: 10 18 2 6 *
+    # https://crontab.guru/every-hour
+    - cron: 0 * * * *
 
 jobs:
-  merge:
+  scheduled_PR_Merge_job:
+    name: Scheduled PR Merge Job
     runs-on: ubuntu-latest
+    outputs:
+      mergedPRs: ${{ steps.mainActionStep.outputs.MPR_LIST }}
+      mergeFailPR: ${{ steps.mainActionStep.outputs.MC_PR_NO }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - id: mainActionStep
+        uses: VaibhavChidrawar/merge-schedule-action@master
         with:
-          node-version: 12
-      - run: "npm ci"
-      - run: "node ./.github/actions/merge.js"
+          # Merge method to use. Possible values are merge, squash or
+          # rebase. Default is merge.
+          merge_method: squash
+          #  Time zone to use. Default is UTC.
+          time_zone: "Asia/Tokyo"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  display_PR_status_job:
+    name: Show status of PR
+    runs-on: ubuntu-latest
+    needs: scheduled_PR_Merge_job
+    steps:
+      - run: echo ${{needs.scheduled_PR_Merge_job.outputs.mergedPRs}} ${{needs.scheduled_PR_Merge_job.outputs.mergeFailPR}}
