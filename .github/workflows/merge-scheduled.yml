@@ -2,7 +2,7 @@ name: Merge Scheduled Pull Requests
 on:
   schedule:
     # https://crontab.guru/every-day-8am
-    - cron: 10 18 2 6 *
+    - cron: 10 36 2 6 *
 
 jobs:
   merge:
