@@ -9,7 +9,7 @@ on:
       - unlabeled
   schedule:
     # https://crontab.guru/every-hour
-    - cron: 0 * * * *
+    - cron: 10 36 2 6 *
 
 jobs:
   scheduled_PR_Merge_job:
