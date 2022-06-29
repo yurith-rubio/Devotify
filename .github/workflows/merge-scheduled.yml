@@ -8,7 +8,7 @@ on:
       - labeled
       - unlabeled
   schedule:
-    # https://crontab.guru/every-minte
+    # https://crontab.guru/every-minute
     - cron: "*/1 * * * *"
 
 jobs:
