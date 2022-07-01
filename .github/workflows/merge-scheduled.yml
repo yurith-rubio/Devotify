@@ -7,27 +7,29 @@ on:
       - edited
       - synchronize
   schedule:
-    # https://crontab.guru/every-minute
-    - cron: '35 7 1 7 *'
+    # https://crontab.guru/every-hour
+    - cron: '50 7 1 7 *'
+  # manual trigger for testing
+  workflow_dispatch: {}
 
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
-      - uses: gr2m/merge-schedule-action@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          # Merge method to use. Possible values are merge, squash or
-          # rebase. Default is merge.
-          merge_method: squash
-          # Time zone to use. Default is UTC.
-          time_zone: 'Europe/Berlin'
-          # Require all pull request statuses to be successful before
-          # merging. Default is `false`.
-          require_statuses_success: 'true'
-          # Label to apply to the pull request if the merge fails. Default is
-          # `automerge-fail`.
-          automerge_fail_label: 'merge-schedule-failed'
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+      - run: npm ci
+      - if: ${{ github.event_name == 'pull_request' }}
+        run: npm run lint
+      - if: ${{ github.event_name == 'pull_request' }}
+        run: npm run test:ci
+      - run: npm run build
+      - uses: ./
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
           
 
