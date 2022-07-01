@@ -9,7 +9,7 @@ on:
   schedule:
   
     # https://crontab.guru/every-minte
-    - cron: "24 15 1 7 *"
+    - cron: "28 15 1 7 *"
 
 jobs:
   merge_schedule:
